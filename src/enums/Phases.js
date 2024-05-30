@@ -1,0 +1,1 @@
+export const Phases = ["inhale", "hold1", "exhale", "hold2"]

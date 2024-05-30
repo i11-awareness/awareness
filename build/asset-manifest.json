@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/awareness/static/css/main.b4dc9446.css",
+    "main.js": "/awareness/static/js/main.dd481383.js",
+    "static/media/Inspire11Logo.svg": "/awareness/static/media/Inspire11Logo.66dff217ce1665ec5783e8457a138eee.svg",
+    "static/media/Inspire11Slogan.png": "/awareness/static/media/Inspire11Slogan.5f592537b573a23da9a0.png",
+    "index.html": "/awareness/index.html",
+    "main.b4dc9446.css.map": "/awareness/static/css/main.b4dc9446.css.map",
+    "main.dd481383.js.map": "/awareness/static/js/main.dd481383.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4dc9446.css",
+    "static/js/main.dd481383.js"
+  ]
+}
