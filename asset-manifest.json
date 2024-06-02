@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/awareness/static/css/main.2ba50ee6.css",
-    "main.js": "/awareness/static/js/main.440dfc73.js",
+    "main.js": "/awareness/static/js/main.f666eea2.js",
     "static/media/Inspire11Logo.svg": "/awareness/static/media/Inspire11Logo.66dff217ce1665ec5783e8457a138eee.svg",
     "static/media/Inspire11Slogan.png": "/awareness/static/media/Inspire11Slogan.5f592537b573a23da9a0.png",
     "index.html": "/awareness/index.html",
     "main.2ba50ee6.css.map": "/awareness/static/css/main.2ba50ee6.css.map",
-    "main.440dfc73.js.map": "/awareness/static/js/main.440dfc73.js.map"
+    "main.f666eea2.js.map": "/awareness/static/js/main.f666eea2.js.map"
   },
   "entrypoints": [
     "static/css/main.2ba50ee6.css",
-    "static/js/main.440dfc73.js"
+    "static/js/main.f666eea2.js"
   ]
 }
