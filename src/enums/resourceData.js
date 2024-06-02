@@ -1,4 +1,4 @@
-export const categoryData = {
+export const resourceData = {
   mindfulnessRelaxation: {
     title: "Mindfulness and Relaxation",
     items: [

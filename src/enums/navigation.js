@@ -1,6 +1,6 @@
 const navigation = [
   { name: "Home", to: "/" },
-  { name: "Categories", to: "/categories" },
+  { name: "Resources", to: "/resources" },
   { name: "About", to: "/about" },
 ];
 

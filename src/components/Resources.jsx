@@ -1,16 +1,16 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { categories } from '../enums/categories';
+import { resources } from '../enums/resources';
 import { FiChevronsRight } from "react-icons/fi";
 
 
 
-export default function Categories() {
+export default function Resources() {
   const navigate = useNavigate();
 
   return (
     <div className="min-w-full pr-[20px]  pl-[20px] flex flex-col items-center space-y-2 ">
-      {categories.map(({ name, url }, index) => (
+      {resources.map(({ name, url }, index) => (
         <div
           key={index}
           onClick={() => navigate(url)}
