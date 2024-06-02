@@ -1,15 +1,12 @@
 import { Outlet } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import ScrollToTop from "../hooks/scrollTop";
 
 const Layout = () => {
   return (
-    <div className="flex flex-col min-h-screen">
-      <ScrollToTop />
+    <div className="flex flex-col justify-between min-h-screen">
       <NavBar />
-      
-      <div className="mt-20">
+      <div className="flex-grow flex flex-col items-center justify-center">
         <Outlet />
       </div>
       <Footer />

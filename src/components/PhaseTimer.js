@@ -13,7 +13,7 @@ export default function PhaseTimer() {
   }, []);
 
   return ( 
-    <div className="absolute -bottom-40 iphonese:-bottom-40  13.3:-bottom-32 left-1/2 transform -translate-x-1/2 p-10 w-1/2">
+    <div className=" mt-20 transform p-10 w-full">
       <div className="w-full bg-gray-300 rounded-full h-4">
         <div
           className="bg-[#1C0C24] h-full rounded-full"

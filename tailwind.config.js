@@ -10,10 +10,11 @@ module.exports = {
         secondary: '#FF6900',
       },
       screens: {
-        'iphonese': {'max' :'375px'},
         '13.3' : {'min':'1000px', 'max':'1300px'}
       },
-
+      height: {
+        '200': '200px',
+      },
     },
   },
   plugins: [],

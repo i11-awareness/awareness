@@ -7,7 +7,7 @@ const AboutUs = () => {
     <div className="flex justify-center">
       <div className="max-w-screen-lg">
         <div className="mb-4 ml-2">
-          <h1 className="text-3xl font-bold">About Us</h1>
+          <h1 className="pt-5 text-3xl font-bold">About Us</h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {CardContent.map((content, index) => (

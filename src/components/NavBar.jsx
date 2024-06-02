@@ -18,7 +18,7 @@ const NavBar = () => {
   useBodyOverflow(open);
 
   return (
-    <nav className="bg-primary fixed w-full top-0 z-50">
+    <nav className="bg-primary w-full top-0 z-50">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute left-0 flex items-center pl-2">

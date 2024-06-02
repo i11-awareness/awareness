@@ -6,8 +6,8 @@ import { contactInfo } from "../enums/cardContent";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary mt-auto">
-      <div className="max-w-screen-xl mx-auto px-4 py-6 lg:py-8">
+    <footer className="bg-primary">
+      <div className=" mx-auto px-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between items-center">
           <div className="mb-6">
             <img src={Slogan} className="h-12" alt="Inspire11 Logo" />

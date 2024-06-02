@@ -43,8 +43,8 @@ const Circle = () => {
 
   
   return (<>
-      {!isAnimating && <h4 className="font-semibold flex justify-center">Take a breath to relax by clicking below</h4>} 
-    <div className="relative top-24 sm:top-40 iphonese:mt-[-44px] flex flex-col justify-center items-center mt-0" >
+    {!isAnimating && <h4 className="font-semibold flex justify-center items-start">Take a breath to relax by clicking below</h4>} 
+    <div className={`flex flex-col justify-center items-center mt-6 w-full content-center ${!isAnimating ? "h-200" : ""}`}>
       {!isAnimating ? (
         <>
         
@@ -54,11 +54,13 @@ const Circle = () => {
         <PhaseIndicator phase={animationPhase} />
       )}
       <BreathingCircle phase={animationPhase}></BreathingCircle>
-      <div>
+      
+    </div>
+    <div className="w-full flex flex-col justify-center items-center">
         {isAnimating && <PhaseTimer key={animationPhase} />}
+
         {!isAnimating && <SeeMore />}
       </div>
-    </div>
   </>
   );
 };
