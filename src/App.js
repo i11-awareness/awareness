@@ -27,7 +27,10 @@ const router = createBrowserRouter(
       />
       <Route path="*" element={<ErrorPage />} />
     </Route>
-  )
+  ), 
+  {
+    basename: "/awareness"
+  }
 );
 
 function App() {
