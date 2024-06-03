@@ -11,8 +11,11 @@ const Circle = () => {
   const [animationPhase, setAnimationPhase] = useState("");
 
   const startAnimation = () => {
-    setIsAnimating(true);
-    setAnimationPhase("inhale");
+    if (!isAnimating) {
+
+      setIsAnimating(true);
+      setAnimationPhase("inhale");
+    }
   };
 
   useEffect(() => {
@@ -53,7 +56,7 @@ const Circle = () => {
       ) : (
         <PhaseIndicator phase={animationPhase} />
       )}
-      <BreathingCircle phase={animationPhase}></BreathingCircle>
+      <BreathingCircle phase={animationPhase} onClick={startAnimation} isAnimating={isAnimating}></BreathingCircle>
       
     </div>
     <div className="w-full flex flex-col justify-center items-center">

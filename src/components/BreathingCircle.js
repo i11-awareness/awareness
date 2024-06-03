@@ -1,6 +1,6 @@
 import { keyframes } from "../enums/keyframes";
 
-export default function BreathingCircle({ phase }) {
+export default function BreathingCircle({ phase, onClick, isAnimating }) {
   const phaseStyles = {
     inhale: {
       filter: "drop-shadow(14px 15px 25px rgba(0, 0, 0, 0.55))",
@@ -20,11 +20,11 @@ export default function BreathingCircle({ phase }) {
   };
 
   return (
-    <>
+    <div className={`${!isAnimating ? "cursor-pointer" : ""}`} onClick={onClick}>
       <style>{keyframes}</style>
       <div className={`w-32 h-32 sm:w-48 sm:h-48 bg-[#ABD7EB] rounded-full relative overflow-hidden ${phase ? "mt-20" : ""}`} style={phaseStyles[phase]}>
       </div>
-    </>
+    </div>
   );
 }
 
