@@ -9,7 +9,7 @@ export default function Resources() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-w-full pr-[20px]  pl-[20px] flex flex-col items-center space-y-2 ">
+    <div className="min-w-full pr-[20px]  pl-[20px] pt-[20px] pb-[20px] flex flex-col items-center space-y-2 ">
       {resources.map(({ name, url }, index) => (
         <div
           key={index}
